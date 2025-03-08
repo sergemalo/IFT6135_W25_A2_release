@@ -64,7 +64,7 @@ all_metrics, checkpoint_path = train(args)
 plot_loss_accs(all_metrics, multiple_runs=False, log_x=False, log_y=False, fileName=args.exp_name, filePath=None, show=True)
 
 ## Train multiple models (multiple seeds)
-all_models_per_trials, all_metrics, all_checkpoint_paths = train_m_models(args, M=2, seeds=[])
+all_models_per_trials, all_metrics, all_checkpoint_paths = train_m_models(args, M=2, seeds=[0, 42])
 plot_loss_accs(all_metrics, multiple_runs=True, log_x=False, log_y=False, fileName=args.exp_name, filePath=None, show=True)
 ```
 
