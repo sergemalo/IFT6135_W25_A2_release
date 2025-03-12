@@ -1,0 +1,13 @@
+--extra-index-url https://download.pytorch.org/whl/cu124
+numpy
+pandas
+matplotlib
+seaborn
+tqdm
+ipykernel
+jupyterlab
+scikit-learn
+torch
+torchvision
+torchaudio
+gradescope-utils
